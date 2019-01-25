@@ -11,7 +11,7 @@ import { QuoteService } from "../quote.service";
 })
 export class QuotesComponent implements OnInit {
   quotes: Quote[];
-  errorMessage: string;
+  //errorMessage: string;
 
   constructor(private quoteService: QuoteService) { }
 
